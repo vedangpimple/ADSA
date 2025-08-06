@@ -5,7 +5,8 @@ int SIZE;
 int A[max_SIZE], B[max_SIZE];
 
 
-void merge(int lb, int mid, int ub) {
+void merge(int lb, int mid, int ub) 
+{
     int i = lb;
     int j = mid + 1;
     int k = lb;
